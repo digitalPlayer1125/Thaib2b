@@ -3,7 +3,7 @@
       <div class="container-fluid" style="background-color: #3fd0d4; color: white; height: 35px;">
           <div class="container">
               <div class="d-flex justify-content-center justify-content-sm-between mb-3">
-                  <div class="mt-1 d-none d-sm-block"> 
+                  <div class="mt-1 d-none d-md-block"> 
                     <nuxt-link to="/" style="text-decoration: none; color: white; font-family: Satisfy; font-size: 20px;">thaiB2B.in</nuxt-link>
                   </div>
                   <ul class="list-unstyled list-inline list-social my-1 mb-md-0">
@@ -36,13 +36,17 @@
                         </a>
                       </li>
                   </ul>
+                  <span class="mt-1 d-none d-md-block">
+                    <a rel="noopener" class="d-flex-inline" style="text-decoration: none; color: white;" href="tel:+91-9999228200"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="phone-alt" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="height: 15px;"><path fill="#fff" d="M497.39 361.8l-112-48a24 24 0 0 0-28 6.9l-49.6 60.6A370.66 370.66 0 0 1 130.6 204.11l60.6-49.6a23.94 23.94 0 0 0 6.9-28l-48-112A24.16 24.16 0 0 0 122.6.61l-104 24A24 24 0 0 0 0 48c0 256.5 207.9 464 464 464a24 24 0 0 0 23.4-18.6l24-104a24.29 24.29 0 0 0-14.01-27.6z" class=""></path></svg> +91-9999228200</a> ,
+                    <a rel="noopener" class="d-flex-inline" style="text-decoration: none; color: white;" href="tel:+91-9643800068">+91-9643800068</a>
+                  </span>
               </div>
           </div>
       </div>
       <div class="container sticky-top p-2 d-flex align-items-center justify-content-between">
         <span></span>
         <nuxt-link to="/">
-          <img style="height: 70px;" src="http://thaib2b.in/assets/logo_thaib2b.png" />
+          <img style="height: 70px;" src="/logo.png" />
         </nuxt-link>
         <svg v-b-toggle.sidebar-right width="30" height="30" viewBox="0 0 16 16" class="bi bi-filter-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
           <path fill-rule="evenodd" d="M14 10.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 .5-.5zm0-3a.5.5 0 0 0-.5-.5h-7a.5.5 0 0 0 0 1h7a.5.5 0 0 0 .5-.5zm0-3a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0 0 1h11a.5.5 0 0 0 .5-.5z"/>

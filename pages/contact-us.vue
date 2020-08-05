@@ -1,6 +1,6 @@
 <template>
     <div class="d-flex flex-column">
-        <div style="background: url('https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/get-in-touch-title-img-1.jpg'); background-size: cover; height: 70vh;" class="container-fluid d-flex flex-column align-items-center justify-content-center">
+        <div style="background: url('/skateBoard.jpg'); background-size: cover; height: 70vh;" class="container-fluid d-flex flex-column align-items-center justify-content-center">
             <h3 style="font-family: Satisfy, cursive; color: #fff; font-size: 33px;">
                 Amazing tour
             </h3>
@@ -16,10 +16,7 @@
                             Amazing tour
                         </h2>
                         <p class="mt-3 text-dark" style="font-family: Poppins, cursive; font-size: 18px;">
-                            Si elit omnes hinc agam fabulas. Ut audiam invenire iram. Tn eam dimo diam ea. Piber Korem sit am.
-                        </p>
-                        <p class="mt-3 text-dark" style="font-family: Poppins, cursive; font-size: 15px;">
-                            Al elit omnes impedit ius, vel et hinc agam fabulas. Ut audiam invenire iracundia vim. En eam dico similique, ut sint posse sit, eum sumo diam ea. Liber consectetuer in mei, sea in.
+                            We are an established name in the tourism industry and cater to the requirements of our clientele by offering them quotes at a very nominal cost. We are one of the kind company that offers better solutions and make your experience memorable.
                         </p>
                         <a class="d-flex align-items-center text-dark text-decoration-none" href="mailto:sales@thaiB2B.in" rel="noopener" target="_blank">
                           <svg viewBox="0 0 16 16" style="height: 20px;" fill="#000" xmlns="http://www.w3.org/2000/svg">
@@ -47,24 +44,17 @@
 
 <script>
 export default {
-    // head () {
-    //     return {
-    //         title: 'Contact Us | ThaiB2B',
-    //         meta: [
-    //             { hid: 'description', property: 'description', name: 'description', content: this.article.intro },
-    //             { hid: 'og:url', property: 'og:url', name: 'og:url', content: 'https://Thaib2b.vercel.app/blogs/' + this.article.slug },
-    //             { hid: 'og:title', property: 'og:title', name: 'og:title', content: 'Contact Us | ThaiB2B' },
-    //             { hid: 'og:description', property: 'og:description', name: 'og:description', content: this.article.intro },
-    //             { hid: 'og:image', property: 'og:image', name: 'og:image', content: 'https://Thaib2b.vercel.app' + this.article.image1 },
-    //             { hid: 'twitter:title', property: 'twitter:title', name: 'twitter:title', content: 'Contact Us | ThaiB2B' },
-    //             { hid: 'twitter:description', property: 'twitter:description', name: 'twitter:description', content: this.article.intro },
-    //             { hid: 'twitter:image', property: 'twitter:image', name: 'twitter:image', content: 'https://Thaib2b.vercel.app' + this.article.image1 }
-    //         ]
-    //     }
-    // }
+    head () {
+        return {
+            title: 'Contact Us | ThaiB2B - Your Travel Partner',
+            meta: [
+                { hid: 'og:url', property: 'og:url', name: 'og:url', content: 'https://thaib2b.vercel.app/contact-us' },
+                { hid: 'og:title', property: 'og:title', name: 'og:title', content: 'Contact Us | ThaiB2B - Your Travel Partner' },
+                { hid: 'og:image', property: 'og:image', name: 'og:image', content: 'https://thaib2b.vercel.app/skateBoard.jpg' },
+                { hid: 'twitter:title', property: 'twitter:title', name: 'twitter:title', content: 'Contact Us | ThaiB2B - Your Travel Partner' },
+                { hid: 'twitter:image', property: 'twitter:image', name: 'twitter:image', content: 'https://thaib2b.vercel.app/skateBoard.jpg' }
+            ]
+        }
+    }
 }
 </script>
-
-<style>
-
-</style>

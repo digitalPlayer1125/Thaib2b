@@ -2,11 +2,11 @@
     <footer class="container-fluid text-white pb-5">
         <div class="container mt-4">
             <div class="row">
-                <div class="col-12 col-sm-6 col-md-4">
+                <div class="mt-3 col-12 col-sm-6 col-md-4">
                     <nuxt-link to="/">
-                        <img src="http://thaib2b.in/assets/logo_thaib2b.png" style="height: 100px;">
+                        <img src="/logo.png" style="height: 100px;">
                     </nuxt-link>
-                    <p class="text-dark mt-2">thaiB2B, Leading Thailand Destination Management Company, has a profound understanding of Indian consumers travel needs and preferences.</p>
+                    <p style="font-family: Poppins;" class="text-dark mt-3">thaiB2B, Leading Thailand Destination Management Company, has a profound understanding of Indian consumers travel needs and preferences.</p>
                     <ul class="list-unstyled list-inline list-social my-3 mb-md-0">
                         <li class="list-inline-item list-social-item mr-3">
                             <a aria-label="Twitter-Thaib2b" class="text-decoration-none" href="https://twitter.com/thaib2b" rel="noopener" target="_blank">
@@ -31,7 +31,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-12 col-sm-6 col-md-4">
+                <div class="mt-3 col-12 col-sm-6 col-md-4">
                     <h6 class="text-dark text-uppercase mb-3 f_600">
                     Learn More
                 </h6>
@@ -41,7 +41,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-12 col-sm-6 col-md-4">
+                <div class="mt-3 col-12 col-sm-6 col-md-4">
                     <h6 class="text-dark text-uppercase mb-3 f_600">
                     Contact Us <p />
                 </h6>
@@ -63,8 +63,8 @@
                 <div class="col-12"> <span class="text-dark">
                     Copyright © 2020 ThaiB2B. All rights reserved.
                 </span>
-                    <br class="d-sm-none">
-                    <nuxt-link class="text-dark ml-0 ml-md-2" to="/privacy-policy">Privacy Policy</nuxt-link>
+                    <!-- <br class="d-sm-none"> -->
+                    <!-- <nuxt-link class="text-dark ml-0 ml-md-2" to="/privacy-policy">Privacy Policy</nuxt-link> -->
                 </div>
             </div>
         </div>

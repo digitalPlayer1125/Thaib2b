@@ -1,4 +1,3 @@
-
 export default {
   /*
   ** Nuxt rendering mode
@@ -15,28 +14,28 @@ export default {
   ** See https://nuxtjs.org/api/configuration-head
   */
   head: {
-    title: process.env.npm_package_name || '',
-   meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', property: 'description', name: 'description', content: 'We are an NGO working towards spreading awareness about the impact of resource wastage and trying to bring about a change by utilizing the existing resources to their full capacity.' },
-      { hid: 'og:site_name', property: 'og:site_name', name: 'og:site_name', content: 'Thaib2b' },
-      { hid: 'twitter:card', property: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
-      { hid: 'twitter:site', property: 'twitter:site', name: 'twitter:site', content: '@Thaib2b' },
-      { hid: 'og:type', property: 'og:type', name: 'og:type', content: 'website' },
-      { hid: 'og:url', property: 'og:url', name: 'og:url', content: '' },
-      { hid: 'og:title', property: 'og:title', name: 'og:title', content: 'Thaib2b | Moving towards Zero Resource Wastage' },
-      { hid: 'og:description', property: 'og:description', name: 'og:description', content: 'We are an NGO working towards spreading awareness about the impact of resource wastage and trying to bring about a change by utilizing the existing resources to their full capacity.' },
-      { hid: 'og:image', property: 'og:image', name: 'og:image', content: '/logo.png' },
-      { hid: 'twitter:title', property: 'twitter:title', name: 'twitter:title', content: 'Thaib2b | Moving towards Zero Resource Wastage' },
-      { hid: 'twitter:description', property: 'twitter:description', name: 'twitter:description', content: 'We are an NGO working towards spreading awareness about the impact of resource wastage and trying to bring about a change by utilizing the existing resources to their full capacity.' },
-      { hid: 'twitter:image', property: 'twitter:image', name: 'twitter:image', content: '/logo.png' }
-    ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/logo.png' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Satisfy&display=swap' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Poppins&display=swap' }
-    ]
+    title: process.env.npm_package_name || 'ThaiB2B - Your Travel Partner',
+    meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        { hid: 'description', property: 'description', name: 'description', content: 'thaiB2B, Leading Thailand Destination Management Company, has a profound understanding of Indian consumers travel needs and preferences.' },
+        { hid: 'og:site_name', property: 'og:site_name', name: 'og:site_name', content: 'Thaib2b' },
+        { hid: 'twitter:card', property: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
+        { hid: 'twitter:site', property: 'twitter:site', name: 'twitter:site', content: '@Thaib2b' },
+        { hid: 'og:type', property: 'og:type', name: 'og:type', content: 'website' },
+        { hid: 'og:url', property: 'og:url', name: 'og:url', content: '' },
+        { hid: 'og:title', property: 'og:title', name: 'og:title', content: 'ThaiB2B - Your Travel Partner' },
+        { hid: 'og:description', property: 'og:description', name: 'og:description', content: 'thaiB2B, Leading Thailand Destination Management Company, has a profound understanding of Indian consumers travel needs and preferences.' },
+        { hid: 'og:image', property: 'og:image', name: 'og:image', content: 'https://thaib2b.vercel.app/logo.png' },
+        { hid: 'twitter:title', property: 'twitter:title', name: 'twitter:title', content: 'ThaiB2B - Your Travel Partner' },
+        { hid: 'twitter:description', property: 'twitter:description', name: 'twitter:description', content: 'thaiB2B, Leading Thailand Destination Management Company, has a profound understanding of Indian consumers travel needs and preferences.' },
+        { hid: 'twitter:image', property: 'twitter:image', name: 'twitter:image', content: 'https://thaib2b.vercel.app/logo.png' }
+      ],
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/logo.svg' },
+        { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Satisfy&display=swap' },
+        { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Poppins&display=swap' }
+      ]
   },
   /*
   ** Global CSS
